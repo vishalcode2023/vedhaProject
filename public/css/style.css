@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    background-color: #FCFCFC;
+    overflow: hidden;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+span{
+    color: #E1664F;
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    gap: 20px;
+}
+.btntop{
+    background-color:#124842;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.middle{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middletop{
+    width: 40%;
+    margin: auto;
+}
+.secondmiddle{
+    width: 50%;
+    height: 90vh;
+
+}
+
+.middletop h6{
+    color: #E1664F;
+    font-size: 30px;
+}
+.middletop h3{
+    width: 100%;
+    font-size: 70px;
+    line-height: 60px;
+}
+span1{
+    font-size: 50px;
+    color: #E1664F;
+}
+.middletop p{
+    margin-top: 20px;
+    margin-left:10px ;
+}
+.btn-bottom{
+    margin-top: 20px;
+}
+.startup{
+    margin-left: 10px;
+    color: white;
+    background-color:#124842;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.how{
+    margin-left: 50px;
+    color: tomato;
+    font-weight: 700;
+}
+.secondmiddle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.secon img{
+    position: absolute;
+    width: 40;
+    top: 0px;
+}
+.secon{
+    width: 50%;
+    height: 50%;
+}
+.secon img{
+    width: 5%;
+    height: 10%;
+    object-fit: cover;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+}

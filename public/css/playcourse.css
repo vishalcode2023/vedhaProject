@@ -1,0 +1,82 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Video Gallery Wrapper */
+.video-gallery {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-gallery h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Main Video Section */
+.main-video {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#main-video {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#main-title {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Video List Section */
+.video-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Individual Video Items */
+.video-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.video-item:hover {
+    background-color: #f0faff;
+    transform: scale(1.02);
+}
+
+.video-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Active Video Item */
+.video-item.active {
+    background-color: #dceeff;
+    border-color: #007bff;
+    font-weight: bold;
+}
